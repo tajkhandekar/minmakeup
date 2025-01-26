@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <nav><a href="history.html" class="text-wrapper-4">Product History</a></nav>
+
+  <body>
+    <label for="product-name">Product Name:</label>
+    <input type="text" id="product-name" placeholder="Enter product name">
+
+    <label for="product-price">Product Price:</label>
+    <input type="text" id="product-price" placeholder="Enter product price">
+
+    <button id="add-product">Add Product</button>
+
+    <script>
+      document.getElementById("add-product").addEventListener("click", function() {
+        const productName = document.getElementById("product-name").value;
+        const productPrice = document.getElementById("product-price").value;
+
+        if (productName && productPrice) {
+          const products = JSON.parse(localStorage.getItem("products")) || [];
+          products.push({ name: productName, price: productPrice });
+          localStorage.setItem("products", JSON.stringify(products));
+
+          document.getElementById("product-name").value = "";
+          document.getElementById("product-price").value = "";
+
+          alert("Product added successfully!");
+        } else {
+          alert("Please fill out both fields.");
+        }
+      });
+    </script>
+  </body>
+</html>

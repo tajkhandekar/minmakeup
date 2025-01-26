@@ -1,0 +1,288 @@
+.product-history {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-history .div {
+  background-color: #000000;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+  width: 1280px;
+  height: 832px;
+  position: relative;
+}
+
+.product-history .overlap {
+  position: absolute;
+  width: 1280px;
+  height: 132px;
+  top: -17px;
+  left: 0;
+}
+
+.product-history .rectangle {
+  position: absolute;
+  width: 1280px;
+  height: 100px;
+  top: 17px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.product-history .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 700;
+  color: #fc94de;
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-history .text-wrapper-2 {
+  position: absolute;
+  top: 50px;
+  left: 92px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 700;
+  color: #fc94de;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-history .frame {
+  position: absolute;
+  width: 971px;
+  height: 69px;
+  top: 34px;
+  left: 291px;
+}
+
+.product-history .text-wrapper-3 {
+  position: absolute;
+  top: 21px;
+  left: 359px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-history .text-wrapper-4 {
+  top: 21px;
+  left: 727px;
+  font-family: "JetBrains Mono", Helvetica;
+  color: #000000;
+  font-size: 20px;
+  line-height: normal;
+  position: absolute;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.product-history .text-wrapper-5 {
+  position: absolute;
+  top: 21px;
+  left: 567px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-history .text-wrapper-6 {
+  width: 564px;
+  top: 146px;
+  left: 55px;
+  font-family: "Montserrat", Helvetica;
+  color: #ffffff;
+  font-size: 55px;
+  text-align: center;
+  line-height: 82.5px;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.product-history .used-product {
+  position: absolute;
+  width: 1297px;
+  height: 76px;
+  top: 296px;
+  left: -95px;
+}
+
+.product-history .overlap-group {
+  position: relative;
+  width: 1293px;
+  height: 76px;
+}
+
+.product-history .rectangle-2 {
+  position: absolute;
+  width: 1138px;
+  height: 76px;
+  top: 0;
+  left: 151px;
+  background-color: #ffe1f6;
+  border-radius: 10px;
+}
+
+.product-history .text-wrapper-7 {
+  position: absolute;
+  width: 479px;
+  top: 12px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 52.5px;
+  white-space: nowrap;
+}
+
+.product-history .text-wrapper-8 {
+  position: absolute;
+  width: 479px;
+  top: 12px;
+  left: 814px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 52.5px;
+  white-space: nowrap;
+}
+
+.product-history .p {
+  position: absolute;
+  width: 290px;
+  top: 219px;
+  left: 55px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.product-history .overlap-2 {
+  position: absolute;
+  width: 1299px;
+  height: 190px;
+  top: 410px;
+  left: -95px;
+}
+
+.product-history .overlap-wrapper {
+  position: absolute;
+  width: 1290px;
+  height: 76px;
+  top: 0;
+  left: 0;
+}
+
+.product-history .overlap-3 {
+  position: relative;
+  width: 1288px;
+  height: 76px;
+}
+
+.product-history .rectangle-3 {
+  position: absolute;
+  width: 1138px;
+  height: 76px;
+  top: 0;
+  left: 150px;
+  background-color: #ffe1f6;
+  border-radius: 10px;
+}
+
+.product-history .used-product-2 {
+  position: absolute;
+  width: 1299px;
+  height: 178px;
+  top: 12px;
+  left: 0;
+}
+
+.product-history .overlap-4 {
+  position: absolute;
+  width: 1293px;
+  height: 76px;
+  top: 102px;
+  left: 0;
+}
+
+.product-history .text-wrapper-9 {
+  position: absolute;
+  width: 479px;
+  top: 0;
+  left: 814px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 52.5px;
+  white-space: nowrap;
+}
+
+.product-history .overlap-group-wrapper {
+  position: absolute;
+  width: 1297px;
+  height: 76px;
+  top: 114px;
+  left: 0;
+}
+
+.product-history .used-product-3 {
+  position: absolute;
+  width: 1297px;
+  height: 52px;
+  top: 126px;
+  left: 0;
+}
+
+.product-history .text-wrapper-10 {
+  position: absolute;
+  width: 479px;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 52.5px;
+  white-space: nowrap;
+}
+
+.product-history .div-wrapper {
+  position: absolute;
+  width: 1297px;
+  height: 76px;
+  top: 631px;
+  left: -95px;
+}
